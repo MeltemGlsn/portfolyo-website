@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Random Jokes",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam.",
+      "tags": ["react", "vercel", "axios", "router"],
+      "github": "https://github.com/MeltemGlsn/random-jokes",
+      "demo": "https://random-jokes.vercel.app",
+      "image": "/assets/projects/project1.png",
+      "bg": "bg-blue-50"
+    },
+    {
+      "title": "Are you bored?",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam.",
+      "tags": ["react", "redux", "axios", "router", "vercel"],
+      "github": "https://github.com/MeltemGlsn/are-you-bored",
+      "demo": "https://are-you-bored.vercel.app",
+      "image": "/assets/projects/project2.png",
+      "bg": "bg-green-50"
+    }
+  ]
+  

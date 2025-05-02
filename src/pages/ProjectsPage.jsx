@@ -1,10 +1,11 @@
+import ProjectsSection from '../components/ProjectsSection';
+
 function ProjectsPage() {
-    return (
-      <div className="text-center text-4xl p-10">
-        Projects Page
-      </div>
-    );
-  }
-  
-  export default ProjectsPage;
-  
+  return (
+    <div className="min-h-screen bg-white text-gray-800">
+      <ProjectsSection />
+    </div>
+  );
+}
+
+export default ProjectsPage;
