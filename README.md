@@ -1,12 +1,50 @@
-# React + Vite
+# Meltem Gülşen — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio site built with React, React Router and Tailwind CSS. Showcases my background, skills and projects as a frontend developer.
 
-Currently, two official plugins are available:
+**Live demo:** _add your deployed URL here (e.g. Vercel/Netlify) once published_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+- [React 19](https://react.dev/)
+- [React Router](https://reactrouter.com/) for client-side routing
+- [Tailwind CSS](https://tailwindcss.com/) for styling, with class-based dark mode
+- [Vite](https://vitejs.dev/) for tooling and dev server
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Home, About, Skills, Projects and Contact pages
+- Light/dark mode toggle (persisted to `localStorage`)
+- Project cards driven by [`src/data/projects.json`](src/data/projects.json)
+- Skill cards driven by [`src/data/skills.json`](src/data/skills.json)
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173.
+
+## Available Scripts
+
+- `npm run dev` — start the local dev server
+- `npm run build` — build for production
+- `npm run preview` — preview the production build locally
+- `npm run lint` — run ESLint
+
+## Project Structure
+
+```
+src/
+  components/   Reusable UI components (Header, Footer, cards, etc.)
+  pages/        Route-level pages (Home, About, Skills, Projects, Contact)
+  data/         JSON content for skills and projects
+  assets/       Images and icons
+```
+
+## Contact
+
+- Email: meltemglseen@gmail.com
+- GitHub: [github.com/MeltemGlsn](https://github.com/MeltemGlsn)

@@ -1,32 +1,8 @@
 [
-  {
-    "id": 1,
-    "name": "JavaScript",
-    "image": "/assets/skills/js.png"
-  },
-  {
-    "id": 2,
-    "name": "React",
-    "image": "/assets/skills/react.png"
-  },
-  {
-    "id": 3,
-    "name": "Redux",
-    "image": "/assets/skills/redux.png"
-  },
-  {
-    "id": 4,
-    "name": "Node.js",
-    "image": "/assets/skills/node.png"
-  },
-  {
-    "id": 5,
-    "name": "VS Code",
-    "image": "/assets/skills/vscode.png"
-  },
-  {
-    "id": 6,
-    "name": "Figma",
-    "image": "/assets/skills/figma.png"
-  }
+  { "id": 1, "name": "JavaScript" },
+  { "id": 2, "name": "React" },
+  { "id": 3, "name": "Redux" },
+  { "id": 4, "name": "Node.js" },
+  { "id": 5, "name": "VS Code" },
+  { "id": 6, "name": "Figma" }
 ]

@@ -1,6 +1,13 @@
+const bgClasses = {
+  blue: 'bg-blue-50',
+  green: 'bg-green-50',
+  pink: 'bg-pink-50',
+  purple: 'bg-purple-50',
+};
+
 function ProjectCard({ title, description, tags, github, demo, image, bg }) {
     return (
-      <div className={`rounded-xl p-6 ${bg} w-full max-w-md flex flex-col justify-between`}>
+      <div className={`rounded-xl p-6 ${bgClasses[bg] ?? 'bg-gray-50'} w-full max-w-md flex flex-col justify-between`}>
         {/* Üst Bilgiler */}
         <div className="space-y-3">
           <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
@@ -9,7 +16,7 @@ function ProjectCard({ title, description, tags, github, demo, image, bg }) {
           {/* Etiketler */}
           <div className="flex flex-wrap gap-2">
             {tags.map((tag, index) => (
-              <span key={index} className="text-xs bg-white px-3 py-1 rounded-full shadow-sm">
+              <span key={index} className="text-xs bg-white text-gray-700 px-3 py-1 rounded-full shadow-sm">
                 {tag}
               </span>
             ))}

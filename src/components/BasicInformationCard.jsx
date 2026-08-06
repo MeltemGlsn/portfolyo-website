@@ -1,14 +1,13 @@
 function BasicInformationCard() {
-    return (
-      <div className="bg-pink-50 border border-pink-300 p-4 rounded-lg shadow-sm text-sm w-full md:w-1/2">
-        <h3 className="text-pink-600 font-semibold mb-2">Basic Information</h3>
-        <p><strong>Doğum tarihi:</strong> 24.03.1996</p>
-        <p><strong>İkamet Şehri:</strong> Ankara</p>
-        <p><strong>Eğitim Durumu:</strong> Hacettepe Ünv. Biyoloji<br />Lisans, 2016</p>
-        <p><strong>Tercih Ettiği Rol:</strong> Frontend, UI</p>
-      </div>
-    );
-  }
-  
-  export default BasicInformationCard;
-  
+  return (
+    <div className="bg-pink-50 border border-pink-300 p-4 rounded-lg shadow-sm text-sm text-gray-700 w-full md:w-1/2">
+      <h3 className="text-pink-600 font-semibold mb-2">Quick Facts</h3>
+      <p><strong>Role:</strong> Frontend Developer</p>
+      <p><strong>Location:</strong> Ankara, Turkey</p>
+      <p><strong>Education:</strong> B.Sc. in Biology, Hacettepe University (2016)</p>
+      <p><strong>Focus:</strong> React, UI Development</p>
+    </div>
+  );
+}
+
+export default BasicInformationCard;

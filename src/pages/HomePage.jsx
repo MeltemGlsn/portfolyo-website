@@ -1,5 +1,3 @@
-import BasicInformationCard from '../components/BasicInformationCard';
-import AboutMeCard from '../components/AboutMeCard';
 import profileImage from '../assets/profile.png';
 import SkillCard from '../components/SkillCard';
 import skills from '../data/skills.json';
@@ -13,16 +11,16 @@ function HomePage() {
       <section className="flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Text */}
         <div className="md:w-2/3 space-y-5">
-          <p className="text-gray-800 text-lg">Hi! 👋</p>
-          <h1 className="text-3xl font-bold text-gray-900 leading-relaxed">
+          <p className="text-gray-800 dark:text-gray-200 text-lg">Hi! 👋</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white leading-relaxed">
             I'm <span className="text-pink-600 underline decoration-pink-600 decoration-8">Meltem</span>. <br />
-            I’m a full-stack developer. I can craft solid and scalable frontend products.
+            I’m a frontend developer. I can craft solid and scalable frontend products.
             <br />
             Let’s meet!
           </h1>
           <div className="flex gap-4 text-sm">
             <a href="https://github.com/MeltemGlsn" className="hover:underline font-medium">GitHub</a>
-            <a href="mailto:pratamaiosi@gmail.com" className="hover:underline font-medium">Email</a>
+            <a href="mailto:meltemglseen@gmail.com" className="hover:underline font-medium">Email</a>
           </div>
         </div>
 
@@ -38,20 +36,11 @@ function HomePage() {
 
       {/* Skills Section */}
       <section className="text-center">
-        <h2 className="text-2xl font-semibold mb-6">Skills</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 place-items-center">
           {skills.map((skill) => (
-            <SkillCard key={skill.name} name={skill.name} />
+            <SkillCard key={skill.id} name={skill.name} />
           ))}
-        </div>
-      </section>
-
-      {/* Profile Section */}
-      <section>
-        <h2 className="text-xl font-bold mb-6 text-gray-800 text-center">Profile</h2>
-        <div className="flex flex-col md:flex-row gap-6">
-          <BasicInformationCard />
-          <AboutMeCard />
         </div>
       </section>
 

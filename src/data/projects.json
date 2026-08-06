@@ -1,21 +1,20 @@
 [
-    {
-      "title": "Random Jokes",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam.",
-      "tags": ["react", "vercel", "axios", "router"],
-      "github": "https://github.com/MeltemGlsn/random-jokes",
-      "demo": "https://random-jokes.vercel.app",
-      "image": "/assets/projects/project1.png",
-      "bg": "bg-blue-50"
-    },
-    {
-      "title": "Are you bored?",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam.",
-      "tags": ["react", "redux", "axios", "router", "vercel"],
-      "github": "https://github.com/MeltemGlsn/are-you-bored",
-      "demo": "https://are-you-bored.vercel.app",
-      "image": "/assets/projects/project2.png",
-      "bg": "bg-green-50"
-    }
-  ]
-  
+  {
+    "title": "Random Jokes",
+    "description": "A single-page app that fetches random jokes from a public API and displays them with a clean, minimal UI. Built with React and Axios, with client-side routing via React Router.",
+    "tags": ["react", "vercel", "axios", "router"],
+    "github": "https://github.com/MeltemGlsn/random-jokes",
+    "demo": "https://random-jokes.vercel.app",
+    "image": "/assets/projects/project1.png",
+    "bg": "blue"
+  },
+  {
+    "title": "Are you bored?",
+    "description": "An app that suggests a random activity whenever you're bored, powered by the Bored API. Built with React and Redux for state management, deployed on Vercel.",
+    "tags": ["react", "redux", "axios", "router", "vercel"],
+    "github": "https://github.com/MeltemGlsn/are-you-bored",
+    "demo": "https://are-you-bored.vercel.app",
+    "image": "/assets/projects/project2.png",
+    "bg": "green"
+  }
+]
