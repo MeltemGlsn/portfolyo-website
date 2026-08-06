@@ -6,7 +6,7 @@ function ProjectsSection() {
     <section className="py-16 px-4 bg-white dark:bg-gray-900 text-center">
       <h2 className="text-2xl font-semibold mb-12 text-gray-900 dark:text-white">Projects</h2>
 
-      <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
         {projects.map((project) => (
           <ProjectCard
             key={project.title}

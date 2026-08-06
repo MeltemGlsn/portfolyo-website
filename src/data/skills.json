@@ -1,8 +1,30 @@
 [
-  { "id": 1, "name": "JavaScript" },
-  { "id": 2, "name": "React" },
-  { "id": 3, "name": "Redux" },
-  { "id": 4, "name": "Node.js" },
-  { "id": 5, "name": "VS Code" },
-  { "id": 6, "name": "Figma" }
+  {
+    "category": "Languages",
+    "items": ["JavaScript", "TypeScript", "Python", "Java", "SQL"]
+  },
+  {
+    "category": "Frontend",
+    "items": ["React.js", "Next.js", "Redux", "Context API", "HTML5", "CSS3", "Tailwind CSS"]
+  },
+  {
+    "category": "Backend",
+    "items": ["Spring Boot", "Spring Security", "Spring Data JPA", "FastAPI", "RESTful API Design"]
+  },
+  {
+    "category": "Databases",
+    "items": ["PostgreSQL", "Relational Database Design"]
+  },
+  {
+    "category": "AI / Data",
+    "items": ["Machine Learning", "Scikit-learn", "XGBoost", "Pandas", "NumPy", "Data Visualisation"]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "items": ["AWS (EC2, S3, Lambda, IAM, CloudFront)", "Docker", "Git", "GitHub Actions", "CI/CD"]
+  },
+  {
+    "category": "Tools & Other",
+    "items": ["Figma", "SAP ERP", "OutSystems", "Maven", "Agile"]
+  }
 ]

@@ -1,20 +1,30 @@
 [
   {
-    "title": "Random Jokes",
-    "description": "A single-page app that fetches random jokes from a public API and displays them with a clean, minimal UI. Built with React and Axios, with client-side routing via React Router.",
-    "tags": ["react", "vercel", "axios", "router"],
-    "github": "https://github.com/MeltemGlsn/random-jokes",
-    "demo": "https://random-jokes.vercel.app",
-    "image": "/assets/projects/project1.png",
+    "title": "AI-Driven Fair Price Intelligence Platform",
+    "description": "MSc dissertation project. Engineered an end-to-end platform using Multi-Layer Perceptrons and unsupervised clustering to estimate fair market values and flag pricing anomalies. Built a high-performance FastAPI REST API and a React.js dashboard on a decoupled architecture, deployed securely on AWS.",
+    "tags": ["python", "scikit-learn", "xgboost", "fastapi", "react", "aws"],
+    "github": "https://github.com/MeltemGlsn?tab=repositories",
+    "bg": "purple"
+  },
+  {
+    "title": "E-commerce Platform",
+    "description": "Full-stack e-commerce application covering product listings, authentication and order management. Designed the relational database schema, integrated Spring Data JPA, and applied Repository, Service and DTO design patterns to keep the codebase modular and testable.",
+    "tags": ["java", "spring boot", "react", "postgresql", "tailwind css"],
+    "github": "https://github.com/MeltemGlsn/ecommerce-mltm",
     "bg": "blue"
   },
   {
-    "title": "Are you bored?",
-    "description": "An app that suggests a random activity whenever you're bored, powered by the Bored API. Built with React and Redux for state management, deployed on Vercel.",
-    "tags": ["react", "redux", "axios", "router", "vercel"],
-    "github": "https://github.com/MeltemGlsn/are-you-bored",
-    "demo": "https://are-you-bored.vercel.app",
-    "image": "/assets/projects/project2.png",
+    "title": "Pizza Order App",
+    "description": "A responsive pizza ordering interface with real-time form validation and toast notifications. Handles asynchronous API requests and dynamic order summaries with date-fns formatting.",
+    "tags": ["react", "tailwind css", "rest api"],
+    "github": "https://github.com/MeltemGlsn/PizzaAppM",
     "bg": "green"
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "description": "This site — a personal portfolio built with React, React Router and Tailwind CSS, featuring a categorised skills matrix, work experience timeline and dark mode.",
+    "tags": ["react", "react router", "tailwind css", "vite"],
+    "github": "https://github.com/MeltemGlsn/portfolyo-website",
+    "bg": "pink"
   }
 ]

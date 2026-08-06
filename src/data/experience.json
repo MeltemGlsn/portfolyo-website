@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Industrial Engineer & Planning Specialist",
+    "company": "Alvan Food Production Co., Istanbul",
+    "period": "Mar 2024 – Aug 2024",
+    "bullets": [
+      "Managed production planning and procurement workflows on SAP ERP, cutting planning cycle time and reducing manual scheduling errors.",
+      "Served as SAP Super User for the site, training 10+ cross-departmental staff and acting as first-line support for ERP issues.",
+      "Identified workflow inefficiencies through data analysis and proposed process improvements adopted by operations management."
+    ]
+  },
+  {
+    "role": "Low Code Developer",
+    "company": "BayPM, Istanbul",
+    "period": "Sep 2022 – Dec 2023",
+    "bullets": [
+      "Built and maintained CRM and warehouse management applications on the OutSystems platform, supporting day-to-day business operations.",
+      "Delivered a mobile matching application end-to-end — requirements gathering, build, testing and release — as part of a small delivery team.",
+      "Partnered directly with business stakeholders to translate functional requirements into working software, running iterative feedback cycles."
+    ]
+  }
+]

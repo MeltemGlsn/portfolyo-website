@@ -1,0 +1,14 @@
+[
+  {
+    "degree": "MSc Computer Science",
+    "school": "University of Portsmouth",
+    "period": "Sep 2025 – Present",
+    "note": "Key modules: Cloud Computing, Cybersecurity, Advanced Artificial Intelligence."
+  },
+  {
+    "degree": "BSc Industrial Engineering",
+    "school": "Yildiz Technical University, Istanbul",
+    "period": "2017 – 2022",
+    "note": "Thesis: Statistical modelling and vehicle price estimation using Python, Linear Regression and Scikit-learn."
+  }
+]

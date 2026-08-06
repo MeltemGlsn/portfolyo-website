@@ -1,26 +1,19 @@
-import jsLogo from '../assets/skills/js.png';
-import reactLogo from '../assets/skills/react.png';
-import reduxLogo from '../assets/skills/redux.png';
-import nodeLogo from '../assets/skills/node.png';
-import vscodeLogo from '../assets/skills/vscode.png';
-import figmaLogo from '../assets/skills/figma.png';
-
-const skillImages = {
-  JavaScript: jsLogo,
-  React: reactLogo,
-  Redux: reduxLogo,
-  'Node.js': nodeLogo,
-  'VS Code': vscodeLogo,
-  Figma: figmaLogo,
-};
-
-function SkillCard({ name }) {
-  const image = skillImages[name];
-
+function SkillCard({ category, items }) {
   return (
-    <div className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center justify-center">
-      <img src={image} alt={name} className="w-16 h-16 object-contain mb-2" />
-      <p className="text-sm font-semibold text-gray-700">{name}</p>
+    <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 shadow-sm text-left">
+      <h3 className="text-sm font-semibold text-purple-700 dark:text-purple-400 mb-3">
+        {category}
+      </h3>
+      <div className="flex flex-wrap gap-2">
+        {items.map((item) => (
+          <span
+            key={item}
+            className="text-xs bg-purple-50 dark:bg-gray-700 text-gray-700 dark:text-gray-200 px-2 py-1 rounded-full"
+          >
+            {item}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }

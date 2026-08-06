@@ -1,6 +1,6 @@
 # Meltem Gülşen — Portfolio
 
-Personal portfolio site built with React, React Router and Tailwind CSS. Showcases my background, skills and projects as a frontend developer.
+Personal portfolio site built with React, React Router and Tailwind CSS. Showcases my background, skills and projects as a Full Stack Developer specialising in Java/Spring Boot, React, Python and AWS.
 
 **Live demo:** _add your deployed URL here (e.g. Vercel/Netlify) once published_
 
@@ -16,7 +16,8 @@ Personal portfolio site built with React, React Router and Tailwind CSS. Showcas
 - Home, About, Skills, Projects and Contact pages
 - Light/dark mode toggle (persisted to `localStorage`)
 - Project cards driven by [`src/data/projects.json`](src/data/projects.json)
-- Skill cards driven by [`src/data/skills.json`](src/data/skills.json)
+- Categorised skill matrix driven by [`src/data/skills.json`](src/data/skills.json)
+- Experience, education and certifications on the About page, driven by [`src/data/experience.json`](src/data/experience.json), [`src/data/education.json`](src/data/education.json) and [`src/data/certifications.json`](src/data/certifications.json)
 
 ## Getting Started
 
@@ -46,5 +47,5 @@ src/
 
 ## Contact
 
-- Email: meltemglseen@gmail.com
+- Email: meltemgulsenytu@gmail.com
 - GitHub: [github.com/MeltemGlsn](https://github.com/MeltemGlsn)

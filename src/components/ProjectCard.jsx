@@ -27,20 +27,24 @@ function ProjectCard({ title, description, tags, github, demo, image, bg }) {
             <a href={github} target="_blank" rel="noopener noreferrer" className="hover:underline">
               View on GitHub
             </a>
-            <a href={demo} target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center gap-1">
-              Go to app <span className="text-lg">→</span>
-            </a>
+            {demo && (
+              <a href={demo} target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center gap-1">
+                Go to app <span className="text-lg">→</span>
+              </a>
+            )}
           </div>
         </div>
-  
+
         {/* Görsel */}
-        <div className="mt-6 flex justify-center">
-          <img
-            src={image}
-            alt={title}
-            className="w-[300px] h-auto object-contain"
-          />
-        </div>
+        {image && (
+          <div className="mt-6 flex justify-center">
+            <img
+              src={image}
+              alt={title}
+              className="w-[300px] h-auto object-contain"
+            />
+          </div>
+        )}
       </div>
     );
   }
